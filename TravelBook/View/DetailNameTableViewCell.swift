@@ -8,6 +8,11 @@
 import UIKit
 
 class DetailNameTableViewCell: UITableViewCell {
+    
+    //MARK: IBOutlets
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var lineView: UIView!
+    @IBOutlet weak var nameTextLabel: UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()

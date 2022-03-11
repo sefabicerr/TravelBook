@@ -9,26 +9,26 @@ import Foundation
 
 class Place {
     
-    var placeName: String
-    var cityName: String
-    var type: String
-    var image: String
-    var imagee: String
-    var imageee: String
+    var id: UUID?
+    var placeName: String?
+    var cityName: String?
+    var type: String?
+    var description: String?
+    var image: Data?
+    var latitude: Double?
+    var longitude: Double?
     
     
-    init(placeName:String,cityName:String,type: String,image:String,imagee:String, imageee:String){
+    init(id:UUID,placeName:String,cityName:String,type: String,description: String,image:Data,latitude:Double, longitude:Double){
       
+        self.id = id
         self.placeName = placeName
         self.cityName = cityName
         self.type = type
+        self.description = description
         self.image = image
-        self.imagee = imagee
-        self.imageee = imageee
+        self.latitude = latitude
+        self.longitude = longitude
     }
-    
-    
-    convenience init(){
-        self.init(placeName: "", cityName: "", type: "", image: "", imagee: "", imageee: "")
-    } 
+
 }

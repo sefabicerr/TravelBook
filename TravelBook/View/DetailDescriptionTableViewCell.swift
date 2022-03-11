@@ -9,6 +9,16 @@ import UIKit
 
 class DetailDescriptionTableViewCell: UITableViewCell {
 
+    //MARK: IBOutlets
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var lineView: UIView!
+    @IBOutlet weak var descriptionTextLabel: UITextView!{
+        didSet{
+            descriptionTextLabel.isEditable = false
+        }
+    }
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

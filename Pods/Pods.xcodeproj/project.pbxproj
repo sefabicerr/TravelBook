@@ -1,0 +1,1198 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B24BE61CA6AA92C189F0DE8E14A865 /* AdvancedVideoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA6E82C406C7BF8DDFB1CDEE2B618E8 /* AdvancedVideoEditor.swift */; };
+		084C802A5B6D0BCA47418EAF80340915 /* Pods-TravelBook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB8C1AE7D2BD5094374520E5D410EB6 /* Pods-TravelBook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0898F62BFE2157F2845EB9165B44A8A0 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22225CDA5614C726CE3B53EA26DAA00C /* FrameView.swift */; };
+		0BD3CC434F6FD51E29396627F7772E30 /* UIScrollView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D318DC4BE22CED55E8D19400C7AD177A /* UIScrollView+Extensions.swift */; };
+		0C14A5F3135F3233FDB335B9C46C9B90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69008373E20ACB3EE35BFF217B497ACB /* Foundation.framework */; };
+		1293F81DA0002E48B31EA90F4E78F23A /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B3BF59F524878CDD6C3425AF2AB017 /* Video.swift */; };
+		1A42C37DF8AD30C0A02C9F453CB36BD0 /* Gallery.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1B936CDF27CD791C73997B4C4CDF4619 /* Gallery.bundle */; };
+		205BC92138F4C2A17F15C9EC68997A6C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A895A45DD5E277BF56F7E741899C46D7 /* CameraView.swift */; };
+		25B7F7CF78186FC730C0E4DA78FA2BAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAD236A1CCC0AC5A842050346505D17 /* UIKit.framework */; };
+		285DE2BFC80C77504C6ACAD92AB52CDF /* VideoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643296180FBEFC22E951FB0BB35FBCE8 /* VideoBox.swift */; };
+		2A19829848094E04797544F8DA386622 /* PermissionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC7EE11CBD9078F10AC2FCD156DC575 /* PermissionController.swift */; };
+		2C8251439CB026DD7CA9AEF9AB7C0FBC /* Gallery-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF98F208ECCBF8F7240D5F0C4730960 /* Gallery-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D35740AD4493EB09F315F30AC4299CB /* ArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01A707405512FA6F6020357F9A43511 /* ArrowButton.swift */; };
+		3679284DC0BBC7D7C3924D01856030FE /* EditInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F599A57994FAAE25BAA42167D014C596 /* EditInfo.swift */; };
+		4B7589D84DEE32296091015C1B939E65 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9993D6A51E0E5B27C95FF7145F49299A /* UIView+Extensions.swift */; };
+		4F8760E6E82DF13D7DCC9368F96C6A0E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54620DAA292BB056830A5945696C232E /* Utils.swift */; };
+		563E54DAA303832CDAFE8255FEE96618 /* VideosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0A43A1C29967A32DAE590C50CD9B60 /* VideosController.swift */; };
+		5F4CB9BE4D9650368887AD360BD3F76E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A3177081306BB1774AA2D73C6893E4 /* LocationManager.swift */; };
+		61109659134BA0A39A09F0FE13B26085 /* DropdownController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE89EC6A8F5751CF896752DEF4AEE34 /* DropdownController.swift */; };
+		6198BE7B87B393AF05F931C67E93D1B6 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98486BCEEB892BB6A4BAFEFE6E77D41D /* GridView.swift */; };
+		6777C4C7E0AFB5B8D12073A314E59BB5 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E889B4A0EE1ED8F3C733EACCF652BFB4 /* EmptyView.swift */; };
+		68DF069A421A71AC4AA071EB909DC56D /* Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33DE0502510050ADD6CB9AFF113E819 /* Permission.swift */; };
+		6A6B35B4B869FBC9F3B77E254BDA2C11 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D686AB18EED198AB590B830527AD40 /* Config.swift */; };
+		6E9948493343B3E543A6C14A4C283A4F /* Pods-TravelBook-TravelBookUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3169AD962975642D4901E74E200110 /* Pods-TravelBook-TravelBookUITests-dummy.m */; };
+		6F517B899DDC49AD12A680402E70E577 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69008373E20ACB3EE35BFF217B497ACB /* Foundation.framework */; };
+		7266C2D9738E58EE8655C355A2F1F32C /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD548E173CCC6CAA83D32D86F9864FEB /* AlbumCell.swift */; };
+		731C04CA93238AF145F50D69295C8060 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2744E00B54ABA6D81051A038AD144E /* Fetcher.swift */; };
+		77BEDE073EC07D2B2CAB0A40819E54EB /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168A331C79D07D8E69393BB6E7D91816 /* Cart.swift */; };
+		7825910F0053D29AC61857D7186562F7 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F439CE194C1DE3BED2F5EC02A750C /* Album.swift */; };
+		7BFADC7659DE8C1E3A460D924C1DA9ED /* Pods-TravelBookTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E604AF0E74ACE4D14A220D4C88CE88D7 /* Pods-TravelBookTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DE15221C15FB40D08470E747C1BA46A /* CameraMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56E9DFBC564A43366179ED3C7390863 /* CameraMan.swift */; };
+		80E86D3D600485091D3122BF6FAE3367 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AB6BDCF687BA8093FF94424026ED70 /* AVFoundation.framework */; };
+		840E5A38FD9EC371C59EBB3C0F318280 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F40CCF257F8B6AA24C4E81A4D7636 /* StackView.swift */; };
+		85221E11E0969E1352EB7E6EBD973117 /* UIBlurEffect+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61AC8E2AE8AE07BBB57FEB3A8F37145 /* UIBlurEffect+Style.swift */; };
+		8696B7E79ECAEFC3E8BB9F8DA83BA15F /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937B8C19A53D529F2ED82047565C70A /* Array+Extensions.swift */; };
+		8D2DE415966B2C88F4D0E47FD281D58F /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C304453C3A4C78B0339E384FB5F6645 /* UIColor.swift */; };
+		9292D197FCFD64D7ED9EB1BB8248E95E /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA99935250952582DC801EC683F29E /* VideoCell.swift */; };
+		949B5DBB55D54C1966200600B4FEFBF3 /* VideosLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CF7C1A8E75287940C1C371FAA4C1E3 /* VideosLibrary.swift */; };
+		974E602E90531EC150EC642242A202A2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F38C7065DA3FD7D41388B98FD9593FC /* CoreLocation.framework */; };
+		9D4DC41CA92795411D9935B170252836 /* ShutterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A52327E765C32FB6EDFAB4EE5C8A480 /* ShutterButton.swift */; };
+		9F2874C521DA8285024EEF906889F65A /* ImagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A43E6F1221475B6D02D6A06472495C /* ImagesController.swift */; };
+		9F9F0161FF64FB1417CFF7AA7652A93D /* PermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB719F1EBBD2F0E3044A3B939E96693 /* PermissionView.swift */; };
+		A20C1A9D0998CAA305365E2CBA603703 /* GalleryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BED46EF58E85FA0F76B9216541B985 /* GalleryController.swift */; };
+		A309499D145DCE1ABF557ADAEF649D41 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B535F6559B72A4BDF658A5CF567A7A6 /* String+Extensions.swift */; };
+		A54BD12922D6D1237DCD11309451ACD7 /* EventHub.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC2BAEA21E88CF109CC273D964F61C4 /* EventHub.swift */; };
+		AA9CD490A2B414CE3D7F67E12B5EDBED /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85E724EBCC71B76C9834992D7B34D4D /* PageIndicator.swift */; };
+		AB28BB5EAA80F7BD96C2A317A840AF17 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E55E6C83E550CC1A0ACFAB745EB94B7 /* UIImageView+Extensions.swift */; };
+		AD638EEE155AA2D3B62229EF7AB4C0CD /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF775CC0D2CA4D22472B91C52B075CB /* PhotosUI.framework */; };
+		AE0DB3EDC6EAEC2B38C9543FA778CA20 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DC3F93CF6B4FF59CEDDDA265BC0987 /* UIViewController+Extensions.swift */; };
+		AE32B3053F3CD43749DE0DA18C55469E /* PagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B43FE9A1F956D3FFA0B7B974B2DB40D /* PagesController.swift */; };
+		B6333877A399DE7B45A5C1BE238212A0 /* AVAsset+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E0C3D5CC6E4C73EA0D1EAE28C0CC08 /* AVAsset+Extensions.swift */; };
+		BB6DEA4177747D5AFBECEDEE7BFAB323 /* Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF9C1EB7F06CA23ED3E2B096A541E89 /* Once.swift */; };
+		BE7FA0EA77C5C32448786C3A77798097 /* GalleryBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C3D3BF61FB46118C3DBD3B3DAD0884 /* GalleryBundle.swift */; };
+		BF31A62E5713FE6F5CADF1FEE4BF64F3 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE80CDE384BB49460CE478B30C18667 /* CameraController.swift */; };
+		C942026284F9988F90EB6B540AB26BC4 /* VideoEditing.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA34AC5CD090D990ADF8F51FE667C84 /* VideoEditing.swift */; };
+		CB54BE04D83323839B8F932A11277379 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A83D83226172C735F0B4670ECB8389F /* Photos.framework */; };
+		D2DB6C3E4C8E3C3429582978ED90F948 /* Gallery-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF14A8504ED9B8079220C65F205635 /* Gallery-dummy.m */; };
+		D52A1EA2838AFDF6BEC11260C18E811C /* ImagesLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48A0E238B625AC72486B79EA03E1715 /* ImagesLibrary.swift */; };
+		D8917BC5199122AB38AB586FDE178A9E /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DB8D5BA440169D28210A6FC005E27D /* Image.swift */; };
+		D9FB030D1BF403C19EB475F263661504 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69008373E20ACB3EE35BFF217B497ACB /* Foundation.framework */; };
+		E143FA71BCC8BDA8488299C7F4FA3942 /* TripleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA018DBA09C15CB1C8DCE32DF6AD102 /* TripleButton.swift */; };
+		E2F6549071BDD42273D0233E33D8A5B6 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529C10C3358BDD106FE62792B4459E86 /* Constraints.swift */; };
+		E340E2BE32446A6DC4CF0BF89A689530 /* Pods-TravelBookTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE54E12DC1DF1778635346DA4C5D547 /* Pods-TravelBookTests-dummy.m */; };
+		E7E881D5698E9E039E2D6F796E03EBDC /* VideoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180751E50590B48AE9196414AE3C509 /* VideoEditor.swift */; };
+		E821E75AC5905D542235A7ED5F95919A /* Pods-TravelBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1AF1EA59843256D32537FD47B6625C /* Pods-TravelBook-dummy.m */; };
+		F99EBD1A5FBF60A3AEE15A418303F2A3 /* Pods-TravelBook-TravelBookUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFDB3AD329491E74FB226FBDEC0720F2 /* Pods-TravelBook-TravelBookUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8CBF2C55E48C08FA7812524DFEB60E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA442483370365481E008B5C1E21A959 /* AVKit.framework */; };
+		FBEEFA58969FC40CAA15D3C21114330C /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B8153E5ECE7EC3B610CF0541C9925 /* ImageCell.swift */; };
+		FCF5A62D54EED5AE2B76061636581E02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69008373E20ACB3EE35BFF217B497ACB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A76CE6EF441724AEB1650EA9A1E4C00C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BC19EF41E39F436CF517D297B712DBD;
+			remoteInfo = Gallery;
+		};
+		AF42AADA9897D77700FBC0FBE871447A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BC19EF41E39F436CF517D297B712DBD;
+			remoteInfo = Gallery;
+		};
+		B6C6C52CF5384233251DADC9D2FB3944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9608678BC9049C61589D09B84544C25;
+			remoteInfo = "Pods-TravelBook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BC0FF76E739D9FED0A2349723AFC9D /* Pods-TravelBookTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TravelBookTests"; path = Pods_TravelBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		050340157402C7E7D9D54EEA2902149D /* Pods-TravelBook-TravelBookUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TravelBook-TravelBookUITests"; path = Pods_TravelBook_TravelBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A83D83226172C735F0B4670ECB8389F /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		0BF775CC0D2CA4D22472B91C52B075CB /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/PhotosUI.framework; sourceTree = DEVELOPER_DIR; };
+		0C4F40CCF257F8B6AA24C4E81A4D7636 /* StackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StackView.swift; path = Sources/Camera/StackView.swift; sourceTree = "<group>"; };
+		0CF9C1EB7F06CA23ED3E2B096A541E89 /* Once.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Once.swift; path = Sources/Utils/Once.swift; sourceTree = "<group>"; };
+		0D3169AD962975642D4901E74E200110 /* Pods-TravelBook-TravelBookUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TravelBook-TravelBookUITests-dummy.m"; sourceTree = "<group>"; };
+		10CF7C1A8E75287940C1C371FAA4C1E3 /* VideosLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideosLibrary.swift; path = Sources/Videos/VideosLibrary.swift; sourceTree = "<group>"; };
+		10DC3F93CF6B4FF59CEDDDA265BC0987 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extensions.swift"; path = "Sources/Utils/Extensions/UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		168A331C79D07D8E69393BB6E7D91816 /* Cart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cart.swift; path = Sources/Images/Cart.swift; sourceTree = "<group>"; };
+		1A0159B5BECD7BBF7806D051A098B40E /* Pods-TravelBookTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TravelBookTests-Info.plist"; sourceTree = "<group>"; };
+		1B936CDF27CD791C73997B4C4CDF4619 /* Gallery.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Gallery.bundle; path = Resources/Gallery.bundle; sourceTree = "<group>"; };
+		1D8A692971906EA8AE3166C708CF8E36 /* Pods-TravelBookTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TravelBookTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DAE9F1918025C55EBD1348F55F83EAB /* Pods-TravelBook-TravelBookUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TravelBook-TravelBookUITests.modulemap"; sourceTree = "<group>"; };
+		1EFA99935250952582DC801EC683F29E /* VideoCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoCell.swift; path = Sources/Videos/VideoCell.swift; sourceTree = "<group>"; };
+		1FB3422E9EA42201F966986B14F7A64A /* Pods-TravelBook */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TravelBook"; path = Pods_TravelBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BED46EF58E85FA0F76B9216541B985 /* GalleryController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GalleryController.swift; path = Sources/Gallery/GalleryController.swift; sourceTree = "<group>"; };
+		22225CDA5614C726CE3B53EA26DAA00C /* FrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = Sources/Utils/View/FrameView.swift; sourceTree = "<group>"; };
+		28BD139D1FE7D85F27178D7DC698EFCD /* Pods-TravelBook-TravelBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TravelBook-TravelBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		28E0C3D5CC6E4C73EA0D1EAE28C0CC08 /* AVAsset+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVAsset+Extensions.swift"; path = "Sources/Utils/Extensions/AVAsset+Extensions.swift"; sourceTree = "<group>"; };
+		2E0B8153E5ECE7EC3B610CF0541C9925 /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = Sources/Images/ImageCell.swift; sourceTree = "<group>"; };
+		2FDB6795516B5EACFF18424B2607B369 /* Gallery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gallery.debug.xcconfig; sourceTree = "<group>"; };
+		310ABE4D15FBF830D1D5E1F2B1E649B9 /* Pods-TravelBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TravelBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B535F6559B72A4BDF658A5CF567A7A6 /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "Sources/Utils/Extensions/String+Extensions.swift"; sourceTree = "<group>"; };
+		3D705BA187F446735B40B7D75F49F8D7 /* Pods-TravelBook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TravelBook-acknowledgements.plist"; sourceTree = "<group>"; };
+		3EB719F1EBBD2F0E3044A3B939E96693 /* PermissionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionView.swift; path = Sources/Utils/Permission/PermissionView.swift; sourceTree = "<group>"; };
+		48D686AB18EED198AB590B830527AD40 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/Utils/Config.swift; sourceTree = "<group>"; };
+		4D0F439CE194C1DE3BED2F5EC02A750C /* Album.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Album.swift; path = Sources/Images/Album.swift; sourceTree = "<group>"; };
+		4DE80CDE384BB49460CE478B30C18667 /* CameraController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraController.swift; path = Sources/Camera/CameraController.swift; sourceTree = "<group>"; };
+		529C10C3358BDD106FE62792B4459E86 /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraints.swift; path = Sources/Utils/Constraints.swift; sourceTree = "<group>"; };
+		53C6E430EBB5A3D78D1FED8CF767A3A6 /* Gallery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gallery.release.xcconfig; sourceTree = "<group>"; };
+		54620DAA292BB056830A5945696C232E /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/Utils/Utils.swift; sourceTree = "<group>"; };
+		5CA018DBA09C15CB1C8DCE32DF6AD102 /* TripleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TripleButton.swift; path = Sources/Camera/TripleButton.swift; sourceTree = "<group>"; };
+		5EAD236A1CCC0AC5A842050346505D17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5EB8C1AE7D2BD5094374520E5D410EB6 /* Pods-TravelBook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TravelBook-umbrella.h"; sourceTree = "<group>"; };
+		643296180FBEFC22E951FB0BB35FBCE8 /* VideoBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoBox.swift; path = Sources/Videos/VideoBox.swift; sourceTree = "<group>"; };
+		69008373E20ACB3EE35BFF217B497ACB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B1AF1EA59843256D32537FD47B6625C /* Pods-TravelBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TravelBook-dummy.m"; sourceTree = "<group>"; };
+		7180751E50590B48AE9196414AE3C509 /* VideoEditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoEditor.swift; path = Sources/Utils/VideoEditor/VideoEditor.swift; sourceTree = "<group>"; };
+		7A52327E765C32FB6EDFAB4EE5C8A480 /* ShutterButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShutterButton.swift; path = Sources/Camera/ShutterButton.swift; sourceTree = "<group>"; };
+		7B43FE9A1F956D3FFA0B7B974B2DB40D /* PagesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagesController.swift; path = Sources/Utils/Pages/PagesController.swift; sourceTree = "<group>"; };
+		7C304453C3A4C78B0339E384FB5F6645 /* UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = Sources/Extensions/UIColor.swift; sourceTree = "<group>"; };
+		7F38C7065DA3FD7D41388B98FD9593FC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		8090B1FED4262E903D051570C33557F4 /* Pods-TravelBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TravelBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B0A43A1C29967A32DAE590C50CD9B60 /* VideosController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideosController.swift; path = Sources/Videos/VideosController.swift; sourceTree = "<group>"; };
+		8E55E6C83E550CC1A0ACFAB745EB94B7 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Extensions.swift"; path = "Sources/Utils/Extensions/UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		91F2A9908E1A0E930107E52973654848 /* Pods-TravelBookTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TravelBookTests.modulemap"; sourceTree = "<group>"; };
+		92B638A7D2B51AF6D6834292A5202C44 /* Pods-TravelBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TravelBook.debug.xcconfig"; sourceTree = "<group>"; };
+		98486BCEEB892BB6A4BAFEFE6E77D41D /* GridView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridView.swift; path = Sources/Utils/View/GridView.swift; sourceTree = "<group>"; };
+		9993D6A51E0E5B27C95FF7145F49299A /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "Sources/Utils/Extensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
+		99C3D3BF61FB46118C3DBD3B3DAD0884 /* GalleryBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GalleryBundle.swift; path = Sources/Utils/GalleryBundle.swift; sourceTree = "<group>"; };
+		9BEF14A8504ED9B8079220C65F205635 /* Gallery-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gallery-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1298A8BCDAC8908254CFA7BAC80DB32 /* Pods-TravelBook-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TravelBook-Info.plist"; sourceTree = "<group>"; };
+		A4AB6BDCF687BA8093FF94424026ED70 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		A895A45DD5E277BF56F7E741899C46D7 /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = Sources/Camera/CameraView.swift; sourceTree = "<group>"; };
+		A9CB316D21EFF51B8C60D20F752FB5A0 /* Pods-TravelBook-TravelBookUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TravelBook-TravelBookUITests-Info.plist"; sourceTree = "<group>"; };
+		AAC7EE11CBD9078F10AC2FCD156DC575 /* PermissionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionController.swift; path = Sources/Utils/Permission/PermissionController.swift; sourceTree = "<group>"; };
+		AEF98F208ECCBF8F7240D5F0C4730960 /* Gallery-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gallery-umbrella.h"; sourceTree = "<group>"; };
+		B35C93469F6D42B5C89E2DACB038B6C5 /* Pods-TravelBookTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TravelBookTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA442483370365481E008B5C1E21A959 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVKit.framework; sourceTree = DEVELOPER_DIR; };
+		BBE54E12DC1DF1778635346DA4C5D547 /* Pods-TravelBookTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TravelBookTests-dummy.m"; sourceTree = "<group>"; };
+		BD622EFB0E1CAB81C39A9AB98FC07E9D /* Pods-TravelBook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TravelBook.modulemap"; sourceTree = "<group>"; };
+		BFDCB999CDAE55642FBE7E9B0F45E600 /* Gallery-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gallery-prefix.pch"; sourceTree = "<group>"; };
+		C16C94EDED45C5D9A59CFA5C3A80CC9F /* Pods-TravelBook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TravelBook-frameworks.sh"; sourceTree = "<group>"; };
+		C33DE0502510050ADD6CB9AFF113E819 /* Permission.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Permission.swift; path = Sources/Utils/Permission/Permission.swift; sourceTree = "<group>"; };
+		C3B3BF59F524878CDD6C3425AF2AB017 /* Video.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Video.swift; path = Sources/Videos/Video.swift; sourceTree = "<group>"; };
+		C58B1F3CB41E35AC311501FB4C75136F /* Pods-TravelBook-TravelBookUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TravelBook-TravelBookUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C61AC8E2AE8AE07BBB57FEB3A8F37145 /* UIBlurEffect+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBlurEffect+Style.swift"; path = "Sources/Extensions/UIBlurEffect+Style.swift"; sourceTree = "<group>"; };
+		C672811526EB10879FAA25858B018173 /* Gallery */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Gallery; path = Gallery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A3177081306BB1774AA2D73C6893E4 /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = Sources/Utils/LocationManager.swift; sourceTree = "<group>"; };
+		C9DB8D5BA440169D28210A6FC005E27D /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Images/Image.swift; sourceTree = "<group>"; };
+		D318DC4BE22CED55E8D19400C7AD177A /* UIScrollView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Extensions.swift"; path = "Sources/Utils/Extensions/UIScrollView+Extensions.swift"; sourceTree = "<group>"; };
+		D354A29C2D2F462AF66808296BB4CC22 /* Pods-TravelBook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TravelBook-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D48A0E238B625AC72486B79EA03E1715 /* ImagesLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagesLibrary.swift; path = Sources/Images/ImagesLibrary.swift; sourceTree = "<group>"; };
+		D4B411F1449717D764676E826D2978FD /* Gallery.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gallery.modulemap; sourceTree = "<group>"; };
+		D5D0C527A09EF5043B8A443540267EFD /* Pods-TravelBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TravelBook.release.xcconfig"; sourceTree = "<group>"; };
+		D937B8C19A53D529F2ED82047565C70A /* Array+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Extensions.swift"; path = "Sources/Utils/Extensions/Array+Extensions.swift"; sourceTree = "<group>"; };
+		D9A43E6F1221475B6D02D6A06472495C /* ImagesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagesController.swift; path = Sources/Images/ImagesController.swift; sourceTree = "<group>"; };
+		DFDB3AD329491E74FB226FBDEC0720F2 /* Pods-TravelBook-TravelBookUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TravelBook-TravelBookUITests-umbrella.h"; sourceTree = "<group>"; };
+		E56E9DFBC564A43366179ED3C7390863 /* CameraMan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraMan.swift; path = Sources/Camera/CameraMan.swift; sourceTree = "<group>"; };
+		E604AF0E74ACE4D14A220D4C88CE88D7 /* Pods-TravelBookTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TravelBookTests-umbrella.h"; sourceTree = "<group>"; };
+		E7A0E7CC11A382D5C7839896B3BCE879 /* Gallery-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Gallery-Info.plist"; sourceTree = "<group>"; };
+		E85E724EBCC71B76C9834992D7B34D4D /* PageIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageIndicator.swift; path = Sources/Utils/Pages/PageIndicator.swift; sourceTree = "<group>"; };
+		E889B4A0EE1ED8F3C733EACCF652BFB4 /* EmptyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyView.swift; path = Sources/Utils/View/EmptyView.swift; sourceTree = "<group>"; };
+		EBA34AC5CD090D990ADF8F51FE667C84 /* VideoEditing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoEditing.swift; path = Sources/Utils/VideoEditor/VideoEditing.swift; sourceTree = "<group>"; };
+		EC2744E00B54ABA6D81051A038AD144E /* Fetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Fetcher.swift; path = Sources/Utils/Fetcher.swift; sourceTree = "<group>"; };
+		EE88751DA022192D21959A9231FE7DAF /* Pods-TravelBook-TravelBookUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TravelBook-TravelBookUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F01A707405512FA6F6020357F9A43511 /* ArrowButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrowButton.swift; path = Sources/Utils/View/ArrowButton.swift; sourceTree = "<group>"; };
+		F39B54DB6A6B91F7E1AA3A9021A764A9 /* Pods-TravelBook-TravelBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TravelBook-TravelBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F599A57994FAAE25BAA42167D014C596 /* EditInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditInfo.swift; path = Sources/Utils/VideoEditor/EditInfo.swift; sourceTree = "<group>"; };
+		FBC2BAEA21E88CF109CC273D964F61C4 /* EventHub.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventHub.swift; path = Sources/Utils/EventHub.swift; sourceTree = "<group>"; };
+		FCA6E82C406C7BF8DDFB1CDEE2B618E8 /* AdvancedVideoEditor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdvancedVideoEditor.swift; path = Sources/Utils/VideoEditor/AdvancedVideoEditor.swift; sourceTree = "<group>"; };
+		FCCE1DAAFD54B2B20C02D1A2F63CB039 /* Pods-TravelBook-TravelBookUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TravelBook-TravelBookUITests-frameworks.sh"; sourceTree = "<group>"; };
+		FD548E173CCC6CAA83D32D86F9864FEB /* AlbumCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlbumCell.swift; path = Sources/Utils/View/AlbumCell.swift; sourceTree = "<group>"; };
+		FEE89EC6A8F5751CF896752DEF4AEE34 /* DropdownController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropdownController.swift; path = Sources/Utils/Dropdown/DropdownController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE5ECAD65A0C21DCA9D33AEF82FF6896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF5A62D54EED5AE2B76061636581E02 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA4614DACFA963295ABD1B17266DC41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F517B899DDC49AD12A680402E70E577 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6AA43608EC8CEE6ECCD3E0A00B3FA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9FB030D1BF403C19EB475F263661504 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E260371ECCC5AE36B8E6CC0896E2C253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E86D3D600485091D3122BF6FAE3367 /* AVFoundation.framework in Frameworks */,
+				FA8CBF2C55E48C08FA7812524DFEB60E /* AVKit.framework in Frameworks */,
+				974E602E90531EC150EC642242A202A2 /* CoreLocation.framework in Frameworks */,
+				0C14A5F3135F3233FDB335B9C46C9B90 /* Foundation.framework in Frameworks */,
+				CB54BE04D83323839B8F932A11277379 /* Photos.framework in Frameworks */,
+				AD638EEE155AA2D3B62229EF7AB4C0CD /* PhotosUI.framework in Frameworks */,
+				25B7F7CF78186FC730C0E4DA78FA2BAF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B637412C66208C05BF7D2B0524F68B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A93BE50345881D0EC88EB884E3555596 /* Pods-TravelBook */,
+				3BA3E88DAE4325F339D41609AE1042FF /* Pods-TravelBook-TravelBookUITests */,
+				9AB7E4029B8AB108C851259C259D6113 /* Pods-TravelBookTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3BA3E88DAE4325F339D41609AE1042FF /* Pods-TravelBook-TravelBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DAE9F1918025C55EBD1348F55F83EAB /* Pods-TravelBook-TravelBookUITests.modulemap */,
+				EE88751DA022192D21959A9231FE7DAF /* Pods-TravelBook-TravelBookUITests-acknowledgements.markdown */,
+				C58B1F3CB41E35AC311501FB4C75136F /* Pods-TravelBook-TravelBookUITests-acknowledgements.plist */,
+				0D3169AD962975642D4901E74E200110 /* Pods-TravelBook-TravelBookUITests-dummy.m */,
+				FCCE1DAAFD54B2B20C02D1A2F63CB039 /* Pods-TravelBook-TravelBookUITests-frameworks.sh */,
+				A9CB316D21EFF51B8C60D20F752FB5A0 /* Pods-TravelBook-TravelBookUITests-Info.plist */,
+				DFDB3AD329491E74FB226FBDEC0720F2 /* Pods-TravelBook-TravelBookUITests-umbrella.h */,
+				28BD139D1FE7D85F27178D7DC698EFCD /* Pods-TravelBook-TravelBookUITests.debug.xcconfig */,
+				F39B54DB6A6B91F7E1AA3A9021A764A9 /* Pods-TravelBook-TravelBookUITests.release.xcconfig */,
+			);
+			name = "Pods-TravelBook-TravelBookUITests";
+			path = "Target Support Files/Pods-TravelBook-TravelBookUITests";
+			sourceTree = "<group>";
+		};
+		43F01E7F052CA7BD6C010FAB786D00D0 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				FCA6E82C406C7BF8DDFB1CDEE2B618E8 /* AdvancedVideoEditor.swift */,
+				4D0F439CE194C1DE3BED2F5EC02A750C /* Album.swift */,
+				FD548E173CCC6CAA83D32D86F9864FEB /* AlbumCell.swift */,
+				D937B8C19A53D529F2ED82047565C70A /* Array+Extensions.swift */,
+				F01A707405512FA6F6020357F9A43511 /* ArrowButton.swift */,
+				28E0C3D5CC6E4C73EA0D1EAE28C0CC08 /* AVAsset+Extensions.swift */,
+				4DE80CDE384BB49460CE478B30C18667 /* CameraController.swift */,
+				E56E9DFBC564A43366179ED3C7390863 /* CameraMan.swift */,
+				A895A45DD5E277BF56F7E741899C46D7 /* CameraView.swift */,
+				168A331C79D07D8E69393BB6E7D91816 /* Cart.swift */,
+				48D686AB18EED198AB590B830527AD40 /* Config.swift */,
+				529C10C3358BDD106FE62792B4459E86 /* Constraints.swift */,
+				FEE89EC6A8F5751CF896752DEF4AEE34 /* DropdownController.swift */,
+				F599A57994FAAE25BAA42167D014C596 /* EditInfo.swift */,
+				E889B4A0EE1ED8F3C733EACCF652BFB4 /* EmptyView.swift */,
+				FBC2BAEA21E88CF109CC273D964F61C4 /* EventHub.swift */,
+				EC2744E00B54ABA6D81051A038AD144E /* Fetcher.swift */,
+				22225CDA5614C726CE3B53EA26DAA00C /* FrameView.swift */,
+				99C3D3BF61FB46118C3DBD3B3DAD0884 /* GalleryBundle.swift */,
+				20BED46EF58E85FA0F76B9216541B985 /* GalleryController.swift */,
+				98486BCEEB892BB6A4BAFEFE6E77D41D /* GridView.swift */,
+				C9DB8D5BA440169D28210A6FC005E27D /* Image.swift */,
+				2E0B8153E5ECE7EC3B610CF0541C9925 /* ImageCell.swift */,
+				D9A43E6F1221475B6D02D6A06472495C /* ImagesController.swift */,
+				D48A0E238B625AC72486B79EA03E1715 /* ImagesLibrary.swift */,
+				C7A3177081306BB1774AA2D73C6893E4 /* LocationManager.swift */,
+				0CF9C1EB7F06CA23ED3E2B096A541E89 /* Once.swift */,
+				E85E724EBCC71B76C9834992D7B34D4D /* PageIndicator.swift */,
+				7B43FE9A1F956D3FFA0B7B974B2DB40D /* PagesController.swift */,
+				C33DE0502510050ADD6CB9AFF113E819 /* Permission.swift */,
+				AAC7EE11CBD9078F10AC2FCD156DC575 /* PermissionController.swift */,
+				3EB719F1EBBD2F0E3044A3B939E96693 /* PermissionView.swift */,
+				7A52327E765C32FB6EDFAB4EE5C8A480 /* ShutterButton.swift */,
+				0C4F40CCF257F8B6AA24C4E81A4D7636 /* StackView.swift */,
+				3B535F6559B72A4BDF658A5CF567A7A6 /* String+Extensions.swift */,
+				5CA018DBA09C15CB1C8DCE32DF6AD102 /* TripleButton.swift */,
+				C61AC8E2AE8AE07BBB57FEB3A8F37145 /* UIBlurEffect+Style.swift */,
+				7C304453C3A4C78B0339E384FB5F6645 /* UIColor.swift */,
+				8E55E6C83E550CC1A0ACFAB745EB94B7 /* UIImageView+Extensions.swift */,
+				D318DC4BE22CED55E8D19400C7AD177A /* UIScrollView+Extensions.swift */,
+				9993D6A51E0E5B27C95FF7145F49299A /* UIView+Extensions.swift */,
+				10DC3F93CF6B4FF59CEDDDA265BC0987 /* UIViewController+Extensions.swift */,
+				54620DAA292BB056830A5945696C232E /* Utils.swift */,
+				C3B3BF59F524878CDD6C3425AF2AB017 /* Video.swift */,
+				643296180FBEFC22E951FB0BB35FBCE8 /* VideoBox.swift */,
+				1EFA99935250952582DC801EC683F29E /* VideoCell.swift */,
+				EBA34AC5CD090D990ADF8F51FE667C84 /* VideoEditing.swift */,
+				7180751E50590B48AE9196414AE3C509 /* VideoEditor.swift */,
+				8B0A43A1C29967A32DAE590C50CD9B60 /* VideosController.swift */,
+				10CF7C1A8E75287940C1C371FAA4C1E3 /* VideosLibrary.swift */,
+				C4410CEFAC12DA182E51FCB631F1B521 /* Resources */,
+				FCA167DC4ABBD64693BC09B36AD46E09 /* Support Files */,
+			);
+			name = Gallery;
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E39060324C2F2DEC1ADB66230123CCD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A781A7D6E103FBCA5011DCF84858DE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C672811526EB10879FAA25858B018173 /* Gallery */,
+				1FB3422E9EA42201F966986B14F7A64A /* Pods-TravelBook */,
+				050340157402C7E7D9D54EEA2902149D /* Pods-TravelBook-TravelBookUITests */,
+				04BC0FF76E739D9FED0A2349723AFC9D /* Pods-TravelBookTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AB7E4029B8AB108C851259C259D6113 /* Pods-TravelBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				91F2A9908E1A0E930107E52973654848 /* Pods-TravelBookTests.modulemap */,
+				1D8A692971906EA8AE3166C708CF8E36 /* Pods-TravelBookTests-acknowledgements.markdown */,
+				B35C93469F6D42B5C89E2DACB038B6C5 /* Pods-TravelBookTests-acknowledgements.plist */,
+				BBE54E12DC1DF1778635346DA4C5D547 /* Pods-TravelBookTests-dummy.m */,
+				1A0159B5BECD7BBF7806D051A098B40E /* Pods-TravelBookTests-Info.plist */,
+				E604AF0E74ACE4D14A220D4C88CE88D7 /* Pods-TravelBookTests-umbrella.h */,
+				310ABE4D15FBF830D1D5E1F2B1E649B9 /* Pods-TravelBookTests.debug.xcconfig */,
+				8090B1FED4262E903D051570C33557F4 /* Pods-TravelBookTests.release.xcconfig */,
+			);
+			name = "Pods-TravelBookTests";
+			path = "Target Support Files/Pods-TravelBookTests";
+			sourceTree = "<group>";
+		};
+		9E39060324C2F2DEC1ADB66230123CCD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A4AB6BDCF687BA8093FF94424026ED70 /* AVFoundation.framework */,
+				BA442483370365481E008B5C1E21A959 /* AVKit.framework */,
+				7F38C7065DA3FD7D41388B98FD9593FC /* CoreLocation.framework */,
+				69008373E20ACB3EE35BFF217B497ACB /* Foundation.framework */,
+				0A83D83226172C735F0B4670ECB8389F /* Photos.framework */,
+				0BF775CC0D2CA4D22472B91C52B075CB /* PhotosUI.framework */,
+				5EAD236A1CCC0AC5A842050346505D17 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A93BE50345881D0EC88EB884E3555596 /* Pods-TravelBook */ = {
+			isa = PBXGroup;
+			children = (
+				BD622EFB0E1CAB81C39A9AB98FC07E9D /* Pods-TravelBook.modulemap */,
+				D354A29C2D2F462AF66808296BB4CC22 /* Pods-TravelBook-acknowledgements.markdown */,
+				3D705BA187F446735B40B7D75F49F8D7 /* Pods-TravelBook-acknowledgements.plist */,
+				6B1AF1EA59843256D32537FD47B6625C /* Pods-TravelBook-dummy.m */,
+				C16C94EDED45C5D9A59CFA5C3A80CC9F /* Pods-TravelBook-frameworks.sh */,
+				A1298A8BCDAC8908254CFA7BAC80DB32 /* Pods-TravelBook-Info.plist */,
+				5EB8C1AE7D2BD5094374520E5D410EB6 /* Pods-TravelBook-umbrella.h */,
+				92B638A7D2B51AF6D6834292A5202C44 /* Pods-TravelBook.debug.xcconfig */,
+				D5D0C527A09EF5043B8A443540267EFD /* Pods-TravelBook.release.xcconfig */,
+			);
+			name = "Pods-TravelBook";
+			path = "Target Support Files/Pods-TravelBook";
+			sourceTree = "<group>";
+		};
+		BA9F8CBE38B2EBE4602EAF19DBF95700 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43F01E7F052CA7BD6C010FAB786D00D0 /* Gallery */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4410CEFAC12DA182E51FCB631F1B521 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B936CDF27CD791C73997B4C4CDF4619 /* Gallery.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8275CCB4E8732497B1021FCBC240F3C2 /* Frameworks */,
+				BA9F8CBE38B2EBE4602EAF19DBF95700 /* Pods */,
+				9A781A7D6E103FBCA5011DCF84858DE5 /* Products */,
+				07B637412C66208C05BF7D2B0524F68B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FCA167DC4ABBD64693BC09B36AD46E09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4B411F1449717D764676E826D2978FD /* Gallery.modulemap */,
+				9BEF14A8504ED9B8079220C65F205635 /* Gallery-dummy.m */,
+				E7A0E7CC11A382D5C7839896B3BCE879 /* Gallery-Info.plist */,
+				BFDCB999CDAE55642FBE7E9B0F45E600 /* Gallery-prefix.pch */,
+				AEF98F208ECCBF8F7240D5F0C4730960 /* Gallery-umbrella.h */,
+				2FDB6795516B5EACFF18424B2607B369 /* Gallery.debug.xcconfig */,
+				53C6E430EBB5A3D78D1FED8CF767A3A6 /* Gallery.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gallery";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		111C0C020C8E0CAAAFCA76106D92A0DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99EBD1A5FBF60A3AEE15A418303F2A3 /* Pods-TravelBook-TravelBookUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B57FDE96C7DF600EAD180D22C8A9B6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084C802A5B6D0BCA47418EAF80340915 /* Pods-TravelBook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D516F62A68D427F2747BFAF24CC1E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFADC7659DE8C1E3A460D924C1DA9ED /* Pods-TravelBookTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		857676A0B43988C4780181D0C35D0108 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8251439CB026DD7CA9AEF9AB7C0FBC /* Gallery-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BC19EF41E39F436CF517D297B712DBD /* Gallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0740E6A9C06B21C021D5028689107F4C /* Build configuration list for PBXNativeTarget "Gallery" */;
+			buildPhases = (
+				857676A0B43988C4780181D0C35D0108 /* Headers */,
+				918E63910E215A464AAD505662BAD4F3 /* Sources */,
+				E260371ECCC5AE36B8E6CC0896E2C253 /* Frameworks */,
+				72934338BAE6902ADEE2F4E2C3C9F912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gallery;
+			productName = Gallery;
+			productReference = C672811526EB10879FAA25858B018173 /* Gallery */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D0DA0F58C5A4FB053AE49335392A571 /* Pods-TravelBook-TravelBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EEB853E0B653B2AE96168ECBECC8A3 /* Build configuration list for PBXNativeTarget "Pods-TravelBook-TravelBookUITests" */;
+			buildPhases = (
+				111C0C020C8E0CAAAFCA76106D92A0DB /* Headers */,
+				3BBC07082062E19621DFB628D3414788 /* Sources */,
+				AE5ECAD65A0C21DCA9D33AEF82FF6896 /* Frameworks */,
+				3EE3232127EE17FB9CFB87CBC1BD400D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24EC91B667736AE65E82225F00372FBE /* PBXTargetDependency */,
+			);
+			name = "Pods-TravelBook-TravelBookUITests";
+			productName = Pods_TravelBook_TravelBookUITests;
+			productReference = 050340157402C7E7D9D54EEA2902149D /* Pods-TravelBook-TravelBookUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5D9BA9DE8795B886339F32499EF37BD /* Pods-TravelBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C0F95B61616A65E094AA807340975B /* Build configuration list for PBXNativeTarget "Pods-TravelBookTests" */;
+			buildPhases = (
+				73D516F62A68D427F2747BFAF24CC1E5 /* Headers */,
+				1BE3C27EBDFF1DA61B95C574BE5544DD /* Sources */,
+				BEA4614DACFA963295ABD1B17266DC41 /* Frameworks */,
+				C77AC6033DA50051B00974EC13317703 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0B6AC8108F87614D754275457E386D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-TravelBookTests";
+			productName = Pods_TravelBookTests;
+			productReference = 04BC0FF76E739D9FED0A2349723AFC9D /* Pods-TravelBookTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9608678BC9049C61589D09B84544C25 /* Pods-TravelBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40EEC6D559DDDA3672D0EAD94C1595E /* Build configuration list for PBXNativeTarget "Pods-TravelBook" */;
+			buildPhases = (
+				6B57FDE96C7DF600EAD180D22C8A9B6C /* Headers */,
+				84DF309282DE6212405E6EF752A3998D /* Sources */,
+				C6AA43608EC8CEE6ECCD3E0A00B3FA81 /* Frameworks */,
+				489A1F14148242CFC666143523C89B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DB02BA005E73095525DA9027A1DC581 /* PBXTargetDependency */,
+			);
+			name = "Pods-TravelBook";
+			productName = Pods_TravelBook;
+			productReference = 1FB3422E9EA42201F966986B14F7A64A /* Pods-TravelBook */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9A781A7D6E103FBCA5011DCF84858DE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BC19EF41E39F436CF517D297B712DBD /* Gallery */,
+				D9608678BC9049C61589D09B84544C25 /* Pods-TravelBook */,
+				9D0DA0F58C5A4FB053AE49335392A571 /* Pods-TravelBook-TravelBookUITests */,
+				C5D9BA9DE8795B886339F32499EF37BD /* Pods-TravelBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EE3232127EE17FB9CFB87CBC1BD400D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489A1F14148242CFC666143523C89B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72934338BAE6902ADEE2F4E2C3C9F912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A42C37DF8AD30C0A02C9F453CB36BD0 /* Gallery.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77AC6033DA50051B00974EC13317703 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BE3C27EBDFF1DA61B95C574BE5544DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E340E2BE32446A6DC4CF0BF89A689530 /* Pods-TravelBookTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BBC07082062E19621DFB628D3414788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E9948493343B3E543A6C14A4C283A4F /* Pods-TravelBook-TravelBookUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84DF309282DE6212405E6EF752A3998D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E821E75AC5905D542235A7ED5F95919A /* Pods-TravelBook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		918E63910E215A464AAD505662BAD4F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B24BE61CA6AA92C189F0DE8E14A865 /* AdvancedVideoEditor.swift in Sources */,
+				7825910F0053D29AC61857D7186562F7 /* Album.swift in Sources */,
+				7266C2D9738E58EE8655C355A2F1F32C /* AlbumCell.swift in Sources */,
+				8696B7E79ECAEFC3E8BB9F8DA83BA15F /* Array+Extensions.swift in Sources */,
+				2D35740AD4493EB09F315F30AC4299CB /* ArrowButton.swift in Sources */,
+				B6333877A399DE7B45A5C1BE238212A0 /* AVAsset+Extensions.swift in Sources */,
+				BF31A62E5713FE6F5CADF1FEE4BF64F3 /* CameraController.swift in Sources */,
+				7DE15221C15FB40D08470E747C1BA46A /* CameraMan.swift in Sources */,
+				205BC92138F4C2A17F15C9EC68997A6C /* CameraView.swift in Sources */,
+				77BEDE073EC07D2B2CAB0A40819E54EB /* Cart.swift in Sources */,
+				6A6B35B4B869FBC9F3B77E254BDA2C11 /* Config.swift in Sources */,
+				E2F6549071BDD42273D0233E33D8A5B6 /* Constraints.swift in Sources */,
+				61109659134BA0A39A09F0FE13B26085 /* DropdownController.swift in Sources */,
+				3679284DC0BBC7D7C3924D01856030FE /* EditInfo.swift in Sources */,
+				6777C4C7E0AFB5B8D12073A314E59BB5 /* EmptyView.swift in Sources */,
+				A54BD12922D6D1237DCD11309451ACD7 /* EventHub.swift in Sources */,
+				731C04CA93238AF145F50D69295C8060 /* Fetcher.swift in Sources */,
+				0898F62BFE2157F2845EB9165B44A8A0 /* FrameView.swift in Sources */,
+				D2DB6C3E4C8E3C3429582978ED90F948 /* Gallery-dummy.m in Sources */,
+				BE7FA0EA77C5C32448786C3A77798097 /* GalleryBundle.swift in Sources */,
+				A20C1A9D0998CAA305365E2CBA603703 /* GalleryController.swift in Sources */,
+				6198BE7B87B393AF05F931C67E93D1B6 /* GridView.swift in Sources */,
+				D8917BC5199122AB38AB586FDE178A9E /* Image.swift in Sources */,
+				FBEEFA58969FC40CAA15D3C21114330C /* ImageCell.swift in Sources */,
+				9F2874C521DA8285024EEF906889F65A /* ImagesController.swift in Sources */,
+				D52A1EA2838AFDF6BEC11260C18E811C /* ImagesLibrary.swift in Sources */,
+				5F4CB9BE4D9650368887AD360BD3F76E /* LocationManager.swift in Sources */,
+				BB6DEA4177747D5AFBECEDEE7BFAB323 /* Once.swift in Sources */,
+				AA9CD490A2B414CE3D7F67E12B5EDBED /* PageIndicator.swift in Sources */,
+				AE32B3053F3CD43749DE0DA18C55469E /* PagesController.swift in Sources */,
+				68DF069A421A71AC4AA071EB909DC56D /* Permission.swift in Sources */,
+				2A19829848094E04797544F8DA386622 /* PermissionController.swift in Sources */,
+				9F9F0161FF64FB1417CFF7AA7652A93D /* PermissionView.swift in Sources */,
+				9D4DC41CA92795411D9935B170252836 /* ShutterButton.swift in Sources */,
+				840E5A38FD9EC371C59EBB3C0F318280 /* StackView.swift in Sources */,
+				A309499D145DCE1ABF557ADAEF649D41 /* String+Extensions.swift in Sources */,
+				E143FA71BCC8BDA8488299C7F4FA3942 /* TripleButton.swift in Sources */,
+				85221E11E0969E1352EB7E6EBD973117 /* UIBlurEffect+Style.swift in Sources */,
+				8D2DE415966B2C88F4D0E47FD281D58F /* UIColor.swift in Sources */,
+				AB28BB5EAA80F7BD96C2A317A840AF17 /* UIImageView+Extensions.swift in Sources */,
+				0BD3CC434F6FD51E29396627F7772E30 /* UIScrollView+Extensions.swift in Sources */,
+				4B7589D84DEE32296091015C1B939E65 /* UIView+Extensions.swift in Sources */,
+				AE0DB3EDC6EAEC2B38C9543FA778CA20 /* UIViewController+Extensions.swift in Sources */,
+				4F8760E6E82DF13D7DCC9368F96C6A0E /* Utils.swift in Sources */,
+				1293F81DA0002E48B31EA90F4E78F23A /* Video.swift in Sources */,
+				285DE2BFC80C77504C6ACAD92AB52CDF /* VideoBox.swift in Sources */,
+				9292D197FCFD64D7ED9EB1BB8248E95E /* VideoCell.swift in Sources */,
+				C942026284F9988F90EB6B540AB26BC4 /* VideoEditing.swift in Sources */,
+				E7E881D5698E9E039E2D6F796E03EBDC /* VideoEditor.swift in Sources */,
+				563E54DAA303832CDAFE8255FEE96618 /* VideosController.swift in Sources */,
+				949B5DBB55D54C1966200600B4FEFBF3 /* VideosLibrary.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24EC91B667736AE65E82225F00372FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gallery;
+			target = 0BC19EF41E39F436CF517D297B712DBD /* Gallery */;
+			targetProxy = AF42AADA9897D77700FBC0FBE871447A /* PBXContainerItemProxy */;
+		};
+		9DB02BA005E73095525DA9027A1DC581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gallery;
+			target = 0BC19EF41E39F436CF517D297B712DBD /* Gallery */;
+			targetProxy = A76CE6EF441724AEB1650EA9A1E4C00C /* PBXContainerItemProxy */;
+		};
+		E0B6AC8108F87614D754275457E386D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TravelBook";
+			target = D9608678BC9049C61589D09B84544C25 /* Pods-TravelBook */;
+			targetProxy = B6C6C52CF5384233251DADC9D2FB3944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04803ED43EAA25CD833BFE468F19C916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53C6E430EBB5A3D78D1FED8CF767A3A6 /* Gallery.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gallery/Gallery-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gallery/Gallery-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gallery/Gallery.modulemap";
+				PRODUCT_MODULE_NAME = Gallery;
+				PRODUCT_NAME = Gallery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		454A951C7566E4E2148CEC8048436411 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5D0C527A09EF5043B8A443540267EFD /* Pods-TravelBook.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TravelBook/Pods-TravelBook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TravelBook/Pods-TravelBook.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E082FE9384C4E41BC1E5EFAB5D8D431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92B638A7D2B51AF6D6834292A5202C44 /* Pods-TravelBook.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TravelBook/Pods-TravelBook-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TravelBook/Pods-TravelBook.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A12D78375C5000759EC4F662FBD145E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FDB6795516B5EACFF18424B2607B369 /* Gallery.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gallery/Gallery-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gallery/Gallery-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Gallery/Gallery.modulemap";
+				PRODUCT_MODULE_NAME = Gallery;
+				PRODUCT_NAME = Gallery;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A9B17690AB21E145D37F2C247C6C703E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28BD139D1FE7D85F27178D7DC698EFCD /* Pods-TravelBook-TravelBookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TravelBook-TravelBookUITests/Pods-TravelBook-TravelBookUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TravelBook-TravelBookUITests/Pods-TravelBook-TravelBookUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE8B95B70256E01C16D4302E64E2EB4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39B54DB6A6B91F7E1AA3A9021A764A9 /* Pods-TravelBook-TravelBookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TravelBook-TravelBookUITests/Pods-TravelBook-TravelBookUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TravelBook-TravelBookUITests/Pods-TravelBook-TravelBookUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D1823C10A04A608C567C323D59B8C3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8090B1FED4262E903D051570C33557F4 /* Pods-TravelBookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TravelBookTests/Pods-TravelBookTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TravelBookTests/Pods-TravelBookTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD6F5FEACA6A9D36A31929E015DCA704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 310ABE4D15FBF830D1D5E1F2B1E649B9 /* Pods-TravelBookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TravelBookTests/Pods-TravelBookTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TravelBookTests/Pods-TravelBookTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0740E6A9C06B21C021D5028689107F4C /* Build configuration list for PBXNativeTarget "Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12D78375C5000759EC4F662FBD145E1 /* Debug */,
+				04803ED43EAA25CD833BFE468F19C916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26C0F95B61616A65E094AA807340975B /* Build configuration list for PBXNativeTarget "Pods-TravelBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6F5FEACA6A9D36A31929E015DCA704 /* Debug */,
+				D1823C10A04A608C567C323D59B8C3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32EEB853E0B653B2AE96168ECBECC8A3 /* Build configuration list for PBXNativeTarget "Pods-TravelBook-TravelBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B17690AB21E145D37F2C247C6C703E /* Debug */,
+				AE8B95B70256E01C16D4302E64E2EB4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40EEC6D559DDDA3672D0EAD94C1595E /* Build configuration list for PBXNativeTarget "Pods-TravelBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E082FE9384C4E41BC1E5EFAB5D8D431 /* Debug */,
+				454A951C7566E4E2148CEC8048436411 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

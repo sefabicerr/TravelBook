@@ -1,0 +1,16 @@
+PODS:
+  - Gallery (2.4.0)
+
+DEPENDENCIES:
+  - Gallery
+
+SPEC REPOS:
+  trunk:
+    - Gallery
+
+SPEC CHECKSUMS:
+  Gallery: b7fc1aeb68a39ad6d2c423574750196bf9b25e5c
+
+PODFILE CHECKSUM: a71533463cac48706e66a9c7e9bcb0ab3afbc4ef
+
+COCOAPODS: 1.11.2

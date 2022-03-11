@@ -1,0 +1,6 @@
+framework module Pods_TravelBookTests {
+  umbrella header "Pods-TravelBookTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
